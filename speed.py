@@ -12,5 +12,5 @@ def measure_internet_speed():
     print(f"İndirme Hızı: {download_speed:.2f} Mbps")
     print(f"Yükleme Hızı: {upload_speed:.2f} Mbps")
 
-if name == "main":
+if __name__ == "__main__":
     measure_internet_speed()
